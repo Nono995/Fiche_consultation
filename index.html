@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiche De Consultation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form id="regForm" action="">
+
+        <h1> 
+            <div class="premierTitre">SERVICE D'OPHTAMOLOGIE</div>
+            <div class="deuxiemeTitre">FICHE DE CONSULTATION</div>
+        </h1>
+        
+        <!-- One "tab" for each step in the form: -->
+        <div class="tab">
+            <p class="c0">1) INFORMATIONS CLIENTS :</p> 
+            <p><input placeholder="Code Fiche" oninput="this.className = ''"></p>
+            <p><input placeholder="Nom, Prenom" oninput="this.className = ''"></p>
+            <p><input placeholder="Contact (Tel / Email)" oninput="this.className = ''"></p>
+            <p><input placeholder="Date de naissance" oninput="this.className = ''"></p>
+            <div class="elementDispose0">
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                    <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                    <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">HOMME</span>
+                </label>&ensp;
+                <label></label>&ensp;
+                <label></label>&ensp;
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                        <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                        <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">FEMME</span>
+                </label> 
+            </div>
+            <p><input placeholder="Profession" oninput="this.className = ''"></p>
+            <p><input placeholder="Ethnie/Tribu" oninput="this.className = ''"></p>
+        </div>
+        
+        <div class="tab"><p class="c0">2) AUTRES INFORMATIONS :</p>
+            <p class="c0">*GLAUCOME FAMILIAL :</p>
+            <div class="elementDispose">
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                    <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                    <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">OUI</span>
+                </label>
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                        <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                        <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">NON</span>
+                </label> 
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                            <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                            <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">NE SAIS PAS</span>
+                </label>
+            </div>
+
+            <p class="c0">*SI GLAUCOME FAMILIAL PRECISEZ :</p>
+            <div class="elementDispose">
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                    <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                    <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">FRERE/SOEUR</span>
+                </label>
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                        <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                        <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">COUSINE(E)</span>
+                </label>&ensp;&ensp;
+                
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                        <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                        <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">ENFANT</span>
+                </label> 
+            </div>
+            &ensp;
+            <div class="elementDispose">
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                    <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                    <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">PERE</span>
+                </label>&ensp;&ensp;&ensp;&ensp;
+               &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                        <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                        <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">ONCLE/TANTE</span>
+                </label>&ensp;
+                
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                        <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                        <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">MERE</span>
+                </label> 
+            </div>
+            <p class="c0">*CECITE FAMILIAL :</p>
+            <div class="elementDispose">
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                    <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                    <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">OUI</span>
+                </label>&ensp;
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                        <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                        <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">NON</span>
+                </label>
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                        <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                        <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">NE SAIS PAS</span>
+                </label> 
+            </div>
+
+            <p class="c0">*ANTECEDANTS :</p>
+            <div class="elementDispose">
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                    <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                    <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">HYPERTENSION</span>
+                </label>&ensp;
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                        <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                        <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">DIABETE</span>
+                </label>
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                        <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                        <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">ASTHME</span>
+                </label>
+            </div>&ensp;
+            <div class="elementDispose">
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                    <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                    <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">PATHOLOGIE CARDIAQUE ISCHEMIQUE</span>
+                </label>
+            </div>&ensp;
+            <div class="elementDispose">
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                    <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                    <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">MIGRAINE</span>
+                </label>&ensp;
+                &ensp;&ensp;&ensp;&ensp;
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                    <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                    <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">APNEE DU SOMMEIL</span>
+                </label>
+            </div>
+            <p><input class="elementDispose" placeholder="Autres (precisez)" oninput="this.className = ''"></p>
+            <p class="c0">*MEDICATIONS SYSTEMIQUES :
+                <p><input placeholder="saisissez..." oninput="this.className = ''"></p>
+            </p>
+            <p class="c0">*ATCD OPHTALMOLOGIQUES :
+                <p><input placeholder="saisissez..." oninput="this.className = ''"></p>
+            </p>    
+            <p class="c0">*MEDICATIONS OPHTALMOLOGIQUES :</p>      
+            <div class="elementDispose">
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                    <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                    <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">NON</span>
+                </label>&ensp;
+                &ensp;&ensp;&ensp;&ensp;&ensp;
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                    <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                    <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">OUI</span>&ensp;
+                    <p><input placeholder="Si oui citez..." oninput="this.className = ''"></p>
+                </label>
+            </div>
+            
+        </div>
+        <div class="tab">
+            <div class="c0">3) AUTRES INFORMATIONS :</div>
+
+            <p>ACUITE VISUELLE (DROIT) :</p>
+            <textarea name="" id="" cols="83" rows="5"></textarea>
+
+            <p>ACUITE VISUELLE (GAUCHE) :</p>
+            <textarea name="" id="" cols="83" rows="5"></textarea>
+
+            <div class="c0">3) MOTILITE : ORTHOPHORIE</div>
+            <div class="elementDispose">
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                    <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                    <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">OUI</span>
+                </label>&ensp;
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                        <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                        <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">NON</span>
+                </label> 
+            </div>
+
+            <p>BIOMICROSCOPIE(DROIT) :</p>
+            <textarea name="" id="" cols="83" rows="5"></textarea>
+            <p>BIOMICROSCOPIE(GAUCHE) :</p>
+            <textarea name="" id="" cols="83" rows="5"></textarea>
+
+            <div>
+                <p>TONOMETRIE(MM HG) (DROIT):</p>
+                <p><input placeholder="VALEUR" oninput="this.className = ''"></p>
+                <p><input placeholder="HEURE DE LA MESURE" oninput="this.className = ''"></p>
+                <p><input placeholder="TYPE DE TONOMETRE" oninput="this.className = ''"></p>
+                <p><input placeholder="PRESSION CIBLE" oninput="this.className = ''"></p>
+            </div>
+            <div>
+                <p>TONOMETRIE(MM HG) (GAUCHE):</p>
+                <p><input placeholder="VALEUR" oninput="this.className = ''"></p>
+                <p><input placeholder="HEURE DE LA MESURE" oninput="this.className = ''"></p>
+                <p><input placeholder="TYPE DE TONOMETRE" oninput="this.className = ''"></p>
+                <p><input placeholder="PRESSION CIBLE" oninput="this.className = ''"></p>
+            </div>
+            
+        </div>
+
+        <div class="tab">
+            <div class="c0">3) AUTRES INFORMATIONS :</div>
+            <p>GONIOSCOPIE (DROIT) :</p>
+            <textarea name="" id="" cols="60" rows="10"></textarea>
+            <div class="c0">3) MOTILITE : ORTHOPHORIE</div>
+            <div class="elementDispose">
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                    <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                    <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">OUVERT</span>
+                </label>&ensp;
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                        <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                        <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">FERME</span>
+                </label> 
+            </div>
+
+            <div>
+                <p>FOND D'OEIL (DROIT):</p>
+                <p><input placeholder="VALEUR" oninput="this.className = ''"></p>
+                <p><input placeholder="VERTICAL CUP/DISC" oninput="this.className = ''"></p>
+                <p><input placeholder="ANR" oninput="this.className = ''"></p>
+                <p><input placeholder="POLE POSTERIEUR" type="file" oninput="this.className = ''"></p>
+            </div>
+            <div>
+                <p>FOND D'OEIL (GAUCHE):</p>
+                <p><input placeholder="VALEUR" oninput="this.className = ''"></p>
+                <p><input placeholder="VERTICAL CUP/DISC" oninput="this.className = ''"></p>
+                <p><input placeholder="ANR" oninput="this.className = ''"></p>
+                <p><input placeholder="POLE POSTERIEUR" type="file" oninput="this.className = ''"></p>
+            </div>
+
+
+            <p class="c0">*ATROPHIE PERIPAPILLAIRE (DROIT) :</p>
+            <div class="elementDispose">
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                        <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                        <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">OUI</span>
+                </label>
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                        <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                        <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">NON</span>
+                </label>
+            </div>&ensp;
+
+            <p class="c0">*ATROPHIE PERIPAPILLAIRE (GAUCHE)  :</p>
+            <div class="elementDispose">
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                        <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                        <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">OUI</span>
+                </label>
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                        <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                        <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">NON</span>
+                </label>
+            </div>&ensp;
+
+            <p class="c0">*HEMORRAGIE PERIPAPILLAIRE (DROIT) :</p>
+            <div class="elementDispose">
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                        <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                        <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">OUI</span>
+                </label>
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                        <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                        <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">NON</span>
+                </label>
+            </div>&ensp;
+
+            <p class="c0">*HEMORRAGIE PERIPAPILLAIRE (GAUCHE)  :</p>
+            <div class="elementDispose">
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                        <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                        <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">OUI</span>
+                </label>
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                        <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                        <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">NON</span>
+                </label>
+            </div>&ensp;
+
+            <div>
+                <p>PERIMETRE (DROIT):</p>
+                <p><input placeholder="MD" oninput="this.className = ''"></p>
+                <p><input placeholder="PSD" oninput="this.className = ''"></p>
+                <p><input placeholder="Index du CV" oninput="this.className = ''"></p>
+            </div>
+            <div>
+                <p>PERIMETRE (GAUCHE):</p>
+                <p><input placeholder="MD" oninput="this.className = ''"></p>
+                <p><input placeholder="PSD" oninput="this.className = ''"></p>
+                <p><input placeholder="Index du CV" oninput="this.className = ''"></p>
+            </div>
+            
+        </div>
+
+        <div class="tab">
+            <div class="c0">3) AUTRES INFORMATIONS :</div>
+
+            <div>
+                <p>OCT (DROIT):</p>
+                <p><input placeholder="RNFL" oninput="this.className = ''"></p>
+                <p><input placeholder="VERTICAL C/D" oninput="this.className = ''"></p>
+                <p><input placeholder="CUP VOLUME" oninput="this.className = ''"></p>
+                <p><input placeholder="MACULAR GCC" oninput="this.className = ''"></p>
+                <p><input placeholder="MACULA THICKNESS" oninput="this.className = ''"></p>
+                <p><input placeholder="CLASSIFICATION DE MILLS" oninput="this.className = ''"></p>
+                <p><input placeholder="MACULAR GCC" oninput="this.className = ''"></p>
+                <p>DIAGNOSTIC (DROIT) :</p>
+                <textarea name="" id="" cols="83" rows="5"></textarea>
+            </div>
+            
+            <div>
+                <p>OCT (GAUCHE):</p>
+                <p><input placeholder="RNFL" oninput="this.className = ''"></p>
+                <p><input placeholder="VERTICAL C/D" oninput="this.className = ''"></p>
+                <p><input placeholder="CUP VOLUME" oninput="this.className = ''"></p>
+                <p><input placeholder="MACULAR GCC" oninput="this.className = ''"></p>
+                <p><input placeholder="MACULA THICKNESS" oninput="this.className = ''"></p>
+                <p><input placeholder="CLASSIFICATION DE MILLS" oninput="this.className = ''"></p>
+                <p><input placeholder="MACULAR GCC" oninput="this.className = ''"></p>
+                <p>DIAGNOSTIC (GAUCHE) :</p>
+                <textarea name="" id="" cols="83" rows="5"></textarea>
+            </div>
+            <p class="c0">*GLAUCOMA DIAGNOSTIC (DROITE)  :</p>
+            <div class="elementDispose">
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                        <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                        <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">NON</span>
+                </label>
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                        <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                        <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">LEGER</span>
+                </label>
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                        <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                        <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">MODERE</span>
+                </label>
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                        <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                        <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">SEVERE</span>
+                </label>
+            </div>&ensp;
+
+            <p class="c0">*GLAUCOMA DIAGNOSTIC (GAUCHE)  :</p>
+            <div class="elementDispose">
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                        <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                        <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">NON</span>
+                </label>
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                        <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                        <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">LEGER</span>
+                </label>
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                        <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                        <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">MODERE</span>
+                </label>
+                <label for="myCheckbox01" class="checkbox">
+                    <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                        <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+                        <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+                    </svg>
+                    <span class="checkbox__label">SEVERE</span>
+                </label>
+            </div>&ensp;
+
+            <p>CONDUITE A TENIR :</p>
+            <textarea name="" id="" cols="83" rows="5"></textarea>
+            
+        </div>
+        
+        <div style="overflow:auto;">
+          <div style="float:right;">
+            <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+            <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+          </div>
+        </div>
+        
+        <!-- Circles which indicates the steps of the form: -->
+        <div style="text-align:center;margin-top:40px;">
+          <span class="step"></span>
+          <span class="step"></span>
+          <span class="step"></span>
+          <span class="step"></span>
+        </div>
+        
+        </form>
+</body>
+
+<script src="javascript.js"></script>
+</html>
